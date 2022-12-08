@@ -10,6 +10,3 @@ def facR(n): #Factorial via recursion
         return n
     else:
         return n*facR(n - 1)
-
-def square(m): #Squaring of value
-    return m*m

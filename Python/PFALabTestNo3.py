@@ -5,11 +5,11 @@ Created on Thu Dec  8 20:22:10 2022
 @author: SinVas
 """
 
-def facR(n):
+def facR(n): #Factorial via recursion
     if n == 1:
         return n
     else:
         return n*facR(n - 1)
 
-def sq(n):
+def sq(n): #Squaring of value
     return n*n

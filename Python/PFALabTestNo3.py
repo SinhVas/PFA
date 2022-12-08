@@ -11,4 +11,5 @@ def facR(n):
     else:
         return n*facR(n - 1)
 
-facR(4)
+def sq(n):
+    return n*n
